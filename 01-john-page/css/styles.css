@@ -1,11 +1,5 @@
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-
-.page-wrapper {
-    color: brown;
-    text-decoration-color: aqua;
-}
-h1, h2 {
-    color: red;
-}
+@import "./base.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./variables.css"

@@ -16,35 +16,43 @@
 
   <body>
     <div class="page-wrapper">
-      <header>
-        <a href="./index.html"> <img src="./images/logo.svg" alt="LOGO" /></a>
-        <nav>
-          <ul>
-            <li><a href="./index.html">John's home page</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./work.html">Work</a></li>
+      <header class="heder-container">
+        <a class="logo" href="./index.html">
+          <img src="./images/logo.svg" alt="LOGO"
+        /></a>
+        <nav class="header-nav">
+          <ul class="header-nav-container">
+            <li class="header-nav-item">
+              <a href="./index.html">John's home page</a>
+            </li>
+            <li class="header-nav-item"><a href="./blog.html">Blog</a></li>
+            <li class="header-nav-item"><a href="./work.html">Work</a></li>
           </ul>
         </nav>
       </header>
       <main>
         <section class="hero-section">
-          <h1 class="hero-title">
-            <span>Hi, I'm John!</span> <br />
-            <span>Creative Technologist</span>
-          </h1>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
-          </p>
-          <button>
-            <a href="./work.html" class="button">Check my Work</a>
-          </button>
+          <div class="hero-section-list">
+            <h1 class="hero-title">
+              <span>Hi, I'm John!</span> <br />
+              <span>Creative Technologist</span>
+            </h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="button">
+              <a href="./work.html" class="button-link">Check my Work</a>
+            </button>
+          </div>
           <img src="./images/hero-image.jpg" alt="John's photo" width="243px" />
         </section>
-        <section>
-          <h2>Recent Posts</h2>
-          <a href="./work.html">View all</a>
+        <section class="posts-section">
+          <div class="posts">
+            <h2>Recent Posts</h2>
+            <a href="./work.html">View all</a>
+          </div>
 
           <ul>
             <li>
