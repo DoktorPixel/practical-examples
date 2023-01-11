@@ -51,15 +51,18 @@
         <section class="posts-section">
           <div class="posts">
             <h2>Recent Posts</h2>
-            <a href="./work.html">View all</a>
+            <a class="works-link" href="./work.html">View all</a>
           </div>
 
-          <ul>
+          <ul class="post">
             <li>
-              <article>
-                <h3>Post Title</h3>
-                <span>12 Feb 21 | Design System</span>
-                <p>
+              <article class="posts-article">
+                <h3 class="post-title">Post Title</h3>
+                <p class="post-info">
+                  <time datetime="2021-02-12">12 Feb 21</time> |
+                  <span>Design System</span>
+                </p>
+                <p class="post-text">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
                   Exercitation veniam consequat sunt nostrud amet.
@@ -67,10 +70,13 @@
               </article>
             </li>
             <li>
-              <article>
-                <h3>Post Title</h3>
-                <span>12 Feb 21 | Design System</span>
-                <p>
+              <article class="posts-article">
+                <h3 class="post-title">Post Title</h3>
+                <p class="post-info">
+                  <time datetime="2021-02-12">12 Feb 21</time> |
+                  <span>Design System</span>
+                </p>
+                <p class="post-text">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
                   Exercitation veniam consequat sunt nostrud amet.
@@ -79,51 +85,59 @@
             </li>
           </ul>
         </section>
-        <section>
-          <h2>Featured Work</h2>
-          <a href="./work.html">View all</a>
+        <section class="features">
+          <div class="posts">
+            <h2>Featured Work</h2>
+            <a class="works-link" href="./work.html">View all</a>
+          </div>
 
-          <ul>
-            <li>
+          <ul class="features-work">
+            <li class="features-work-item">
               <img
+                class="features-img"
                 src="./images/dashboard.jpg"
                 alt="Designing Dashboards"
                 width="275px"
               />
-              <h3>Designing Dashboards</h3>
-              <div>
-                <span>2020</span>
-                <span>Dashboard</span>
+              <div class="features-work-info">
+                <h3 class="post-title">Designing Dashboards</h3>
+                <p>
+                  <span class="features-years">2020</span>
+                  <span class="post-info">Dashboard</span>
+                </p>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
               </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
             </li>
-            <li>
+            <li class="features-work-item">
               <img
+                class="features-img"
                 src="./images/vibrant-portrait.jpg"
                 alt="Vibrant Portraits"
                 width="275px"
               />
-              <h3>Vibrant Portraits</h3>
-              <div>
-                <span>2018</span>
-                <span>Illustration</span>
+              <div class="features-work-info">
+                <h3 class="post-title">Vibrant Portraits</h3>
+                <p>
+                  <span class="features-years">2018</span>
+                  <span class="post-info">Illustration</span>
+                </p>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
               </div>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
             </li>
           </ul>
         </section>
       </main>
-      <footer>
+      <footer class="footer">
         <address>
-          <ul>
+          <ul class="footer-list">
             <li>
               <a href="https://www.figma.com/"
                 ><img src="./images/figma.svg" alt="figma"
@@ -140,7 +154,9 @@
               /></a>
             </li>
           </ul>
-          <span> &copy; 2022 Your Name. All rights reserved.</span>
+          <span class="copirating">
+            &copy; 2022 Your Name. All rights reserved.</span
+          >
         </address>
       </footer>
     </div>
